@@ -2,7 +2,10 @@
   "name": "nuxt-layers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "workspaces": [
+    "nuxt-layer",
+    "app"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
