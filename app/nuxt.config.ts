@@ -2,11 +2,8 @@
 export default defineNuxtConfig({
   extends: [ '../nuxt-layer' ],
   typescript: {
+    strict: true,
     typeCheck: true
   },
-  devtools: { enabled: true },
-  testModule: {
-    foo: 'abc',
-    bar: 123
-  }
+  devtools: { enabled: true }
 })
